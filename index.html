@@ -11,29 +11,40 @@
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <img src="images/logo.svg" alt="Base Apparel logo" />
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <img src="images/logo.svg" alt="Base Apparel logo" />
+        </div>
+      </header>
+
+      <div class="illustration-container">
+        <img src="images/hero-mobile.jpg" alt="" class="mobile-hero-image" />
+        <img src="images/hero-desktop.jpg" alt="" class="desktop-hero-image" />
       </div>
-    </header>
 
-    <img src="images/hero-mobile.jpg" alt="" class="mobile-hero-image" />
-    <img src="images/hero-desktop.jpg" alt="" class="desktop-hero-image" />
+      <main>
+        <div class="container">
+          <h1>We're <span class="highlight">coming soon</span></h1>
+          <p>
+            Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with
+            announcements and our launch deals.
+          </p>
 
-    <main>
-      <div class="container">
-        <h1>We're <span class="highlight">coming soon</span></h1>
-        <p>
-          Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements
-          and our launch deals.
-        </p>
+          <form action="/">
+            <div class="email-container">
+              <input type="email" placeholder="Email Address" id="email" />
+              <img src="images/icon-error.svg" alt="" class="error-icon" />
+              <div class="error-message"></div>
+            </div>
 
-        <form action="/">
-          <input type="email" placeholder="Email Address" id="email" />
-          <input type="submit" id="submit" />
-        </form>
-      </div>
-    </main>
+            <button type="submit">
+              <img src="images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+      </main>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>
