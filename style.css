@@ -91,11 +91,15 @@ input[type="email"]::placeholder {
   opacity: 0.6;
 }
 
+input[type="email"]:focus::placeholder {
+  color: transparent;
+}
+
 .error-icon {
   display: none;
   position: absolute;
-  top: 23%;
-  right: 20%;
+  top: 15%;
+  right: 70px;
 }
 
 .error-message {
@@ -118,6 +122,10 @@ button {
   justify-content: center;
   box-shadow: 4px 4px 35px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .desktop-hero-image {
