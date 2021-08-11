@@ -15,6 +15,10 @@ body {
   justify-content: center;
 }
 
+main {
+  width: 100%;
+}
+
 .highlight {
   color: hsl(0, 6%, 24%);
   font-weight: 600;
@@ -25,7 +29,7 @@ body {
   min-height: 100vh;
 }
 
-.header {
+.logo-container {
   padding: 2em 0;
 }
 
@@ -34,7 +38,7 @@ body {
   margin: 0 auto;
 }
 
-.header img {
+.logo-container img {
   width: 40%;
   max-width: 150px;
 }
@@ -58,7 +62,7 @@ h1 {
   max-width: 375px;
 }
 
-.main p {
+.text-content p {
   font-size: 0.875rem;
   text-align: center;
   line-height: 1.3;
@@ -143,7 +147,7 @@ button:hover {
     width: 50%;
   }
 
-  .header {
+  .logo-container {
     align-self: center;
     padding: 0;
   }
@@ -166,7 +170,7 @@ button:hover {
     object-fit: cover;
   }
 
-  .main {
+  .text-content {
     margin-top: 6em;
   }
 
@@ -178,7 +182,7 @@ button:hover {
     line-height: 1.1;
   }
 
-  .main p {
+  .text-content p {
     font-size: 1rem;
     line-height: 1.5;
     margin-left: 0;
